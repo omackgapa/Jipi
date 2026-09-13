@@ -1,0 +1,26 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+body { 
+    font-family: 'Pretendard', sans-serif; 
+    background-color: #0b0f19; 
+    color: #f1f5f9; 
+    touch-action: manipulation; 
+}
+
+::-webkit-scrollbar { 
+    width: 6px; 
+    height: 6px; 
+}
+
+::-webkit-scrollbar-track { 
+    background: #0b0f19; 
+}
+
+::-webkit-scrollbar-thumb { 
+    background: #1e293b; 
+    border-radius: 3px; 
+}
+
+::-webkit-scrollbar-thumb:hover { 
+    background: #334155; 
+}
